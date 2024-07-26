@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "\"C:\\Users\\Thinkbook 14\\AppData\\Local\\Programs\\Python\\Python39\\python.exe\"",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "remote.SSH.remotePlatform": {
+        "prod-env-de": "linux"
+    }
+}

@@ -1,0 +1,16 @@
+2024-07-24 22:00:39.296 [info] Extension host with pid 1260 started
+2024-07-24 22:00:39.306 [info] Lock '/home/orbitlearningcommunity/.vscode-server/data/User/workspaceStorage/9e6be36087e5d61277de2bc2dc87812d/vscode.lock': Lock acquired.
+2024-07-24 22:00:40.206 [info] Eager extensions activated
+2024-07-24 22:00:50.245 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-24 22:00:50.246 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-24 22:00:50.247 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-07-24 22:00:50.247 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-07-24 22:00:50.248 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-07-24 22:00:50.248 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-24 22:00:50.249 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-07-24 22:00:50.731 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-07-24 22:00:50.732 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-07-24 22:31:07.202 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-24 23:26:28.537 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-07-24 23:26:28.540 [info] Lock '/home/orbitlearningcommunity/.vscode-server/data/User/workspaceStorage/9e6be36087e5d61277de2bc2dc87812d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-07-24 23:26:28.560 [info] Extension host with pid 1260 exiting with code 0

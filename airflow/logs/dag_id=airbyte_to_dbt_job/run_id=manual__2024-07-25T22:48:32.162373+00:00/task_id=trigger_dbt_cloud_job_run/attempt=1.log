@@ -1,0 +1,47 @@
+[2024-07-25T22:50:50.061+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_to_dbt_job.trigger_dbt_cloud_job_run manual__2024-07-25T22:48:32.162373+00:00 [queued]>
+[2024-07-25T22:50:50.093+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_to_dbt_job.trigger_dbt_cloud_job_run manual__2024-07-25T22:48:32.162373+00:00 [queued]>
+[2024-07-25T22:50:50.094+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2024-07-25T22:50:50.129+0000] {taskinstance.py:2217} INFO - Executing <Task(DbtCloudRunJobOperator): trigger_dbt_cloud_job_run> on 2024-07-25 22:48:32.162373+00:00
+[2024-07-25T22:50:50.140+0000] {standard_task_runner.py:60} INFO - Started process 123 to run task
+[2024-07-25T22:50:50.159+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'airbyte_to_dbt_job', 'trigger_dbt_cloud_job_run', 'manual__2024-07-25T22:48:32.162373+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/trigger_dbt_cloud_job.py', '--cfg-path', '/tmp/tmpba51d84p']
+[2024-07-25T22:50:50.176+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask trigger_dbt_cloud_job_run
+[2024-07-25T22:50:50.319+0000] {task_command.py:423} INFO - Running <TaskInstance: airbyte_to_dbt_job.trigger_dbt_cloud_job_run manual__2024-07-25T22:48:32.162373+00:00 [running]> on host 8ac1c03c2255
+[2024-07-25T22:50:50.577+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='airbyte_to_dbt_job' AIRFLOW_CTX_TASK_ID='trigger_dbt_cloud_job_run' AIRFLOW_CTX_EXECUTION_DATE='2024-07-25T22:48:32.162373+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-07-25T22:48:32.162373+00:00'
+[2024-07-25T22:50:50.607+0000] {connection.py:269} WARNING - Connection schemes (type: dbt_cloud) shall not contain '_' according to RFC3986.
+[2024-07-25T22:50:50.608+0000] {base.py:83} INFO - Using connection ID 'dbt-cloud' for task execution.
+[2024-07-25T22:50:50.996+0000] {http.py:199} ERROR - HTTP error: Unauthorized
+[2024-07-25T22:50:50.997+0000] {http.py:200} ERROR - {"status": {"code": 401, "is_success": false, "user_message": "The API is not accessible to unpaid accounts.", "developer_message": null}, "data": null}
+[2024-07-25T22:50:51.020+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 197, in check_response
+    response.raise_for_status()
+  File "/home/airflow/.local/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://cloud.getdbt.com/api/v2/accounts/32309/jobs/682241/run/
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/dbt/cloud/operators/dbt.py", line 147, in execute
+    trigger_job_response = self.hook.trigger_job_run(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/dbt/cloud/hooks/dbt.py", line 66, in wrapper
+    return func(*bound_args.args, **bound_args.kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/dbt/cloud/hooks/dbt.py", line 427, in trigger_job_run
+    return self._run_and_get_response(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/dbt/cloud/hooks/dbt.py", line 317, in _run_and_get_response
+    return self.run(endpoint=endpoint, data=payload)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 187, in run
+    return self.run_and_check(session, prepped_request, extra_options)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 238, in run_and_check
+    self.check_response(response)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/providers/http/hooks/http.py", line 201, in check_response
+    raise AirflowException(str(response.status_code) + ":" + response.reason)
+airflow.exceptions.AirflowException: 401:Unauthorized
+[2024-07-25T22:50:51.033+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=airbyte_to_dbt_job, task_id=trigger_dbt_cloud_job_run, execution_date=20240725T224832, start_date=20240725T225050, end_date=20240725T225051
+[2024-07-25T22:50:51.075+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 11 for task trigger_dbt_cloud_job_run (401:Unauthorized; 123)
+[2024-07-25T22:50:51.111+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-07-25T22:50:51.166+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

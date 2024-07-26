@@ -1,0 +1,120 @@
+2024-07-25 22:16:44.465 [info] Log level: Info
+2024-07-25 22:16:44.465 [info] Validating found git in: "git"
+2024-07-25 22:16:44.465 [info] Using git "2.39.2" from "git"
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [7ms]
+2024-07-25 22:16:44.465 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-07-25 22:16:44.465 [info] Open repository: /home/orbitlearningcommunity/airbyte
+2024-07-25 22:16:44.465 [info] > git config --get commit.template [10ms]
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [10ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-25 22:16:44.465 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:16:44.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [26ms]
+2024-07-25 22:16:44.465 [warning] ENOENT: no such file or directory, open '/home/orbitlearningcommunity/airbyte/.git/refs/remotes/origin/master'
+2024-07-25 22:16:44.465 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-25 22:16:45.921 [info] > git status -z -uall [2269ms]
+2024-07-25 22:16:46.185 [info] > git merge-base refs/heads/master refs/remotes/origin/master [254ms]
+2024-07-25 22:16:46.233 [info] > git config --get commit.template [271ms]
+2024-07-25 22:16:46.272 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [78ms]
+2024-07-25 22:16:46.292 [info] > git diff --name-status -z --diff-filter=ADMR 5787132d5df833ee4329bcffea2579f967f50871...refs/remotes/origin/master [2ms]
+2024-07-25 22:16:46.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [24ms]
+2024-07-25 22:16:46.304 [warning] ENOENT: no such file or directory, open '/home/orbitlearningcommunity/airbyte/.git/refs/remotes/origin/master'
+2024-07-25 22:16:46.308 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-25 22:16:46.834 [info] > git check-ignore -v -z --stdin [63ms]
+2024-07-25 22:16:47.464 [info] > git status -z -uall [1140ms]
+2024-07-25 22:23:56.593 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 22:23:56.593 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:29:13.663 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 22:29:13.663 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:41:58.687 [info] > git rev-parse --show-toplevel [23ms]
+2024-07-25 22:41:58.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:41:59.842 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 22:41:59.842 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:42:13.444 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 22:42:13.444 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:42:15.808 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-25 22:42:15.808 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:44:10.843 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-25 22:44:10.843 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 22:45:51.978 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-25 22:45:51.978 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 23:09:51.704 [info] > git rev-parse --show-toplevel [23ms]
+2024-07-25 23:09:51.705 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 23:33:18.905 [info] > git rev-parse --show-toplevel [27ms]
+2024-07-25 23:33:18.906 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 23:54:03.349 [info] > git rev-parse --show-toplevel [22ms]
+2024-07-25 23:54:03.350 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 23:54:23.288 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 23:54:23.288 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 00:10:34.338 [info] > git rev-parse --show-toplevel [21ms]
+2024-07-26 00:10:34.339 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 00:16:36.749 [info] > git rev-parse --show-toplevel [11ms]
+2024-07-26 00:16:36.749 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 00:16:38.313 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 00:16:38.313 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 00:16:39.397 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 00:16:39.397 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-26 00:18:28.157 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-26 00:18:28.166 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-26 00:18:28.172 [info] Open repository: /home/orbitlearningcommunity
+2024-07-26 00:18:28.194 [info] No remotes found in the git config file.
+2024-07-26 00:18:28.196 [info] > git config --get commit.template [14ms]
+2024-07-26 00:18:28.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-26 00:18:28.196 [warning] No such branch: master.
+2024-07-26 00:18:28.425 [info] > git status -z -uall [223ms]
+2024-07-26 00:18:28.486 [info] > git config --get commit.template [14ms]
+2024-07-26 00:18:28.494 [info] No remotes found in the git config file.
+2024-07-26 00:18:28.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2024-07-26 00:18:28.505 [warning] No such branch: master.
+2024-07-26 00:18:28.804 [info] > git status -z -uall [292ms]
+2024-07-26 00:18:29.318 [info] > git check-ignore -v -z --stdin [11ms]
+2024-07-26 00:18:29.341 [info] > git check-ignore -v -z --stdin [25ms]
+2024-07-26 00:18:29.758 [info] > git show --textconv :airflow/dags/trigger_dbt_cloud_job.py [12ms]
+2024-07-26 00:18:29.765 [info] > git ls-files --stage -- /home/orbitlearningcommunity/airflow/dags/trigger_dbt_cloud_job.py [8ms]
+2024-07-26 00:18:31.242 [info] No remotes found in the git config file.
+2024-07-26 00:18:31.243 [info] > git config --get commit.template [9ms]
+2024-07-26 00:18:31.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-26 00:18:31.244 [warning] No such branch: master.
+2024-07-26 00:18:31.265 [info] > git status -z -uall [11ms]
+2024-07-26 00:18:36.313 [info] No remotes found in the git config file.
+2024-07-26 00:18:36.314 [info] > git config --get commit.template [9ms]
+2024-07-26 00:18:36.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-26 00:18:36.315 [warning] No such branch: master.
+2024-07-26 00:18:36.334 [info] > git status -z -uall [12ms]
+2024-07-26 00:18:41.375 [info] No remotes found in the git config file.
+2024-07-26 00:18:41.375 [info] > git config --get commit.template [8ms]
+2024-07-26 00:18:41.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-26 00:18:41.376 [warning] No such branch: master.
+2024-07-26 00:18:41.393 [info] > git status -z -uall [10ms]
+2024-07-26 00:18:46.433 [info] No remotes found in the git config file.
+2024-07-26 00:18:46.434 [info] > git config --get commit.template [9ms]
+2024-07-26 00:18:46.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-07-26 00:18:46.435 [warning] No such branch: master.
+2024-07-26 00:18:46.453 [info] > git status -z -uall [11ms]
+2024-07-26 00:18:49.590 [info] > git ls-files --stage -- /home/orbitlearningcommunity/airflow/dags/trigger_dbt_cloud_job.py [2ms]
+2024-07-26 00:18:49.825 [info] > git show --textconv :airflow/dags/trigger_dbt_cloud_job.py [1ms]
+2024-07-26 00:18:51.497 [info] No remotes found in the git config file.
+2024-07-26 00:18:51.498 [info] > git config --get commit.template [10ms]
+2024-07-26 00:18:51.499 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-26 00:18:51.499 [warning] No such branch: master.
+2024-07-26 00:18:51.520 [info] > git status -z -uall [13ms]
+2024-07-26 00:18:56.567 [info] No remotes found in the git config file.
+2024-07-26 00:18:56.568 [info] > git config --get commit.template [15ms]
+2024-07-26 00:18:56.569 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-07-26 00:18:56.569 [warning] No such branch: master.
+2024-07-26 00:18:56.602 [info] > git status -z -uall [20ms]
+2024-07-26 00:19:02.566 [info] No remotes found in the git config file.
+2024-07-26 00:19:02.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-07-26 00:19:02.568 [warning] No such branch: master.
+2024-07-26 00:19:02.568 [info] > git config --get commit.template [14ms]
+2024-07-26 00:19:02.591 [info] > git status -z -uall [12ms]

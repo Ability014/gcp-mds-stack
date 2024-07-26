@@ -1,0 +1,17 @@
+2024-07-24 23:58:54.046 [info] 
+
+
+
+
+2024-07-24 23:58:54.061 [info] Extension host agent started.
+2024-07-24 23:58:54.597 [info] [<unknown>][6496701f][ManagementConnection] New connection established.
+2024-07-24 23:58:54.676 [info] [<unknown>][35a8f53b][ExtensionHostConnection] New connection established.
+2024-07-24 23:58:54.755 [info] [<unknown>][35a8f53b][ExtensionHostConnection] <1257> Launched Extension Host Process.
+2024-07-24 23:59:18.073 [info] [<unknown>][4e99218f][ManagementConnection] New connection established.
+2024-07-24 23:59:18.080 [info] [<unknown>][34ec14d5][ExtensionHostConnection] New connection established.
+2024-07-24 23:59:18.086 [info] [<unknown>][34ec14d5][ExtensionHostConnection] <1370> Launched Extension Host Process.
+2024-07-25 00:03:54.064 [info] New EH opened, aborting shutdown
+2024-07-25 00:03:54.066 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/orbitlearningcommunity/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-07-25 00:04:18.234 [info] [<unknown>][35a8f53b][ExtensionHostConnection] <1257> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,11 @@
+2024-07-24 23:59:20.283 [info] Extension host with pid 1370 started
+2024-07-24 23:59:20.310 [info] Lock '/home/orbitlearningcommunity/.vscode-server/data/User/workspaceStorage/9e6be36087e5d61277de2bc2dc87812d/vscode.lock': Lock acquired.
+2024-07-24 23:59:20.923 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-24 23:59:20.926 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-24 23:59:21.928 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-24 23:59:22.295 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-24 23:59:22.296 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-24 23:59:22.849 [info] Eager extensions activated
+2024-07-24 23:59:22.849 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-24 23:59:22.850 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-25 00:00:41.752 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

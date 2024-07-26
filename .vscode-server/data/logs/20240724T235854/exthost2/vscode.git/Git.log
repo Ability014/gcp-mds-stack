@@ -1,0 +1,44 @@
+2024-07-24 23:59:23.076 [info] Log level: Info
+2024-07-24 23:59:23.079 [info] Validating found git in: "git"
+2024-07-24 23:59:23.079 [info] Using git "2.39.2" from "git"
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-24 23:59:23.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-24 23:59:23.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-24 23:59:23.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-24 23:59:23.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-24 23:59:23.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-24 23:59:23.079 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-24 23:59:23.079 [info] Open repository: /home/orbitlearningcommunity/airbyte
+2024-07-24 23:59:23.079 [info] > git config --get commit.template [8ms]
+2024-07-24 23:59:23.079 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-24 23:59:23.079 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:23.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [18ms]
+2024-07-24 23:59:23.079 [warning] ENOENT: no such file or directory, open '/home/orbitlearningcommunity/airbyte/.git/refs/remotes/origin/master'
+2024-07-24 23:59:23.079 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-07-24 23:59:23.692 [info] > git check-ignore -v -z --stdin [10ms]
+2024-07-24 23:59:24.974 [info] > git status -z -uall [1957ms]
+2024-07-24 23:59:25.017 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2024-07-24 23:59:25.023 [info] > git config --get commit.template [14ms]
+2024-07-24 23:59:25.125 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [103ms]
+2024-07-24 23:59:25.134 [info] > git diff --name-status -z --diff-filter=ADMR 5787132d5df833ee4329bcffea2579f967f50871...refs/remotes/origin/master [3ms]
+2024-07-24 23:59:25.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [107ms]
+2024-07-24 23:59:25.139 [warning] ENOENT: no such file or directory, open '/home/orbitlearningcommunity/airbyte/.git/refs/remotes/origin/master'
+2024-07-24 23:59:25.140 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-07-24 23:59:25.747 [info] > git status -z -uall [603ms]
+2024-07-24 23:59:31.713 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-24 23:59:31.713 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:33.909 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-24 23:59:33.909 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-24 23:59:39.356 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-24 23:59:39.356 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 00:10:51.840 [info] > git rev-parse --show-toplevel [24ms]
+2024-07-25 00:10:51.841 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 00:32:02.858 [info] > git rev-parse --show-toplevel [27ms]
+2024-07-25 00:32:02.859 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-25 00:32:05.332 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-25 00:32:05.332 [info] fatal: not a git repository (or any of the parent directories): .git

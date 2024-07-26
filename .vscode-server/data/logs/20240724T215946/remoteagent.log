@@ -1,0 +1,33 @@
+2024-07-24 21:59:46.434 [info] 
+
+
+
+
+2024-07-24 21:59:46.434 [info] Extension host agent started.
+2024-07-24 21:59:46.434 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orbitlearningcommunity/.vscode-server/extensions
+2024-07-24 21:59:46.446 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/orbitlearningcommunity/.vscode-server/extensions
+2024-07-24 21:59:47.015 [info] [<unknown>][3c86abfb][ExtensionHostConnection] New connection established.
+2024-07-24 21:59:47.021 [info] [<unknown>][bb8c6626][ManagementConnection] New connection established.
+2024-07-24 21:59:47.078 [info] [<unknown>][3c86abfb][ExtensionHostConnection] <1152> Launched Extension Host Process.
+2024-07-24 22:00:36.913 [info] [<unknown>][1e7f499c][ExtensionHostConnection] New connection established.
+2024-07-24 22:00:36.914 [info] [<unknown>][1cb5e8d4][ManagementConnection] New connection established.
+2024-07-24 22:00:36.918 [info] [<unknown>][1e7f499c][ExtensionHostConnection] <1260> Launched Extension Host Process.
+2024-07-24 22:04:46.397 [info] New EH opened, aborting shutdown
+2024-07-24 22:04:46.398 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/orbitlearningcommunity/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/out/vs/server/node/server.main.js:189:6057)
+    at process.emit (node:events:517:28)
+2024-07-24 22:05:37.130 [info] [<unknown>][3c86abfb][ExtensionHostConnection] <1152> Extension Host Process exited with code: 0, signal: null.
+2024-07-24 22:48:08.189 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-07-24 22:48:08.440 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1601:5)
+2024-07-24 23:21:28.455 [info] [<unknown>][8a9b70f6][ExtensionHostConnection] New connection established.
+2024-07-24 23:21:28.457 [info] [<unknown>][226b283b][ManagementConnection] New connection established.
+2024-07-24 23:21:28.466 [info] [<unknown>][8a9b70f6][ExtensionHostConnection] <79101> Launched Extension Host Process.
+2024-07-24 23:21:45.763 [info] [<unknown>][cd2b7e1e][ManagementConnection] New connection established.
+2024-07-24 23:21:45.765 [info] [<unknown>][359f8e31][ExtensionHostConnection] New connection established.
+2024-07-24 23:21:45.774 [info] [<unknown>][359f8e31][ExtensionHostConnection] <79245> Launched Extension Host Process.
+2024-07-24 23:26:28.572 [info] [<unknown>][1e7f499c][ExtensionHostConnection] <1260> Extension Host Process exited with code: 0, signal: null.
+2024-07-24 23:26:45.936 [info] [<unknown>][8a9b70f6][ExtensionHostConnection] <79101> Extension Host Process exited with code: 0, signal: null.

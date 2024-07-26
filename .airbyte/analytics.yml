@@ -1,0 +1,6 @@
+# This file is used by Airbyte to track anonymous usage statistics.
+# For more information or to opt out, please see
+# - https://docs.airbyte.com/operator-guides/telemetry
+# Deprecated, use analytics_id instead
+anonymous_user_id: 
+analytics_id: ae025ad2-954d-4dff-b66e-1a7c3be0a39d
